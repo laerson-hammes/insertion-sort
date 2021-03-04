@@ -1,2 +1,2 @@
-# insertion-sort
+# Insertion Sort
  
