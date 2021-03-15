@@ -11,5 +11,5 @@ def sortList(unordered_list):
 
 
 unordered_list = [6, 5, 8, 0, 1, 9, 4, 3, 2, 7]
-endList = sortList(unordered_list)
-print(endList)
+end_list = sortList(unordered_list)
+print(end_list)
