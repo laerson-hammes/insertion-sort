@@ -1,4 +1,4 @@
-def sortList(unorderedList):
+def sortList(unordered_list):
    for index, _ in enumerate(unordered_list):
       if index + 1 < len(unordered_list):
          if unordered_list[index] > unordered_list[index + 1]:
