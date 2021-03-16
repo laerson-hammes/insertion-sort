@@ -5,7 +5,7 @@ def sort_list(unordered_list):
             nextItem = unordered_list[index + 1]
             unordered_list[index + 1] = unordered_list[index]
             unordered_list[index] = nextItem
-            sort_lst(unordered_list)
+            sort_list(unordered_list)
    
    return unordered_list
 
