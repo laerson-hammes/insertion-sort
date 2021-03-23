@@ -1,15 +1,17 @@
-def sort_list(unordered_list):
+import random
+
+
+def insertion_sort(unordered_list):
    for index, _ in enumerate(unordered_list):
       if index + 1 < len(unordered_list):
          if unordered_list[index] > unordered_list[index + 1]:
-            nextItem = unordered_list[index + 1]
+            next_item = unordered_list[index + 1]
             unordered_list[index + 1] = unordered_list[index]
-            unordered_list[index] = nextItem
-            sort_list(unordered_list)
+            unordered_list[index] = next_item
+            insertion_sort(unordered_list)
    
    return unordered_list
 
 
-unordered_list = [6, 5, 8, 0, 1, 9, 4, 3, 2, 7]
-end_list = sort_list(unordered_list)
-print(end_list)
+unordered_list = [6, 5, 8, 0, 1, 9, 4, 3, 1, 2, 7]
+print(insertion_sort(unordered_list))
