@@ -13,5 +13,4 @@ def insertion_sort(unordered_list):
    return unordered_list
 
 
-unordered_list = [6, 5, 8, 0, 1, 9, 4, 3, 1, 2, 7]
-print(insertion_sort(unordered_list))
+print(insertion_sort(unordered_list := [6, 5, 8, 0, 1, 9, 4, 3, 1, 2, 7]))
