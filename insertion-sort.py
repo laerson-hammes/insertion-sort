@@ -1,6 +1,3 @@
-import random
-
-
 def insertion_sort(unordered_list):
    for index, _ in enumerate(unordered_list):
       if index + 1 < len(unordered_list):
