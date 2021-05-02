@@ -9,7 +9,6 @@ def insertion_sort(unordered_list):
             unordered_list[index + 1] = unordered_list[index]
             unordered_list[index] = next_item
             insertion_sort(unordered_list)
-   
    return unordered_list
 
 
